@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="org.devgeeks.Canvas2ImagePlugin"
+    id="org.toledobrasil.Canvas2ImagePlugin"
     version="0.6.0">
 
     <name>Canvas 2 Image</name>
@@ -43,12 +44,12 @@
 
         <config-file target="res/xml/config.xml" parent="/*">
           <feature name="Canvas2ImagePlugin" >
-            <param name="android-package" value="org.devgeeks.Canvas2ImagePlugin.Canvas2ImagePlugin"/>
+            <param name="android-package" value="org.toledobrasil.Canvas2ImagePlugin.Canvas2ImagePlugin"/>
           </feature>
         </config-file>
 
         <source-file src="src/android/Canvas2ImagePlugin.java" 
-            target-dir="src/org/devgeeks/Canvas2ImagePlugin" />
+            target-dir="src/org/toledobrasil/Canvas2ImagePlugin" />
 
     </platform>
 
